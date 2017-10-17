@@ -1,0 +1,22 @@
+{
+  "name": "carousel",
+  "version": "1.0.0",
+  "description": "a Carousel Plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yawuling/Carousel.git"
+  },
+  "keywords": [
+    "Carousel"
+  ],
+  "author": "yawuling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yawuling/Carousel/issues"
+  },
+  "homepage": "https://github.com/yawuling/Carousel#readme"
+}
