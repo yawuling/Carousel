@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    #carousel{
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div id='carousel'></div>
+  <script src="../js/Carousel.js"></script>
+  <script>
+    Carousel({
+      el: '#carousel',
+      imgs: [
+        'img/1.jpg',
+        'img/2.jpg',
+        'img/3.jpg'
+      ],
+      autoPlay: 2000
+    })
+  </script>
+</body>
+</html>

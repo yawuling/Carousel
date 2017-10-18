@@ -4,7 +4,8 @@
   "description": "a Carousel Plugin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp server"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/yawuling/Carousel/issues"
   },
-  "homepage": "https://github.com/yawuling/Carousel#readme"
+  "homepage": "https://github.com/yawuling/Carousel#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  }
 }
